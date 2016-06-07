@@ -1,2 +1,2 @@
 
-process.env.NO_DEPRECATION = 'body-parser'
+process.env.NO_DEPRECATION = 'body-parser-multidict'
