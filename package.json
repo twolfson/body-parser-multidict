@@ -22,6 +22,9 @@
     "type-is": "~1.6.12"
   },
   "devDependencies": {
+    "foundry": "~4.3.2",
+    "foundry-release-git": "~2.0.2",
+    "foundry-release-npm": "~2.0.2",
     "istanbul": "0.4.3",
     "methods": "1.1.2",
     "mocha": "2.4.5",
@@ -40,5 +43,11 @@
     "test": "mocha --require test/support/env --reporter spec --check-leaks --bail test/",
     "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/",
     "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/"
+  },
+  "foundry": {
+    "releaseCommands": [
+      "foundry-release-git",
+      "foundry-release-npm"
+    ]
   }
 }
