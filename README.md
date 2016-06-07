@@ -6,8 +6,8 @@ Fork of [body-parser][] with [Werkzeug's MultiDict support][multidict] for urlen
 
 We built `querystring-multidict` for consistent typing when reading query strings (e.g. `.get()` always returns a single string value whereas `querystring`/`qs` can return an array/object depending on user input). Additionally, we added `.fetch()` to make throwing form validation errors easier.
 
-[travis-image]: https://img.shields.io/travis/twolfson/body-parser/master.svg
-[travis-url]: https://travis-ci.org/twolfson/body-parser
+[travis-image]: https://img.shields.io/travis/twolfson/body-parser-multidict/master.svg
+[travis-url]: https://travis-ci.org/twolfson/body-parser-multidict
 [body-parser]: https://github.com/expressjs/body-parser
 [multidict]: https://github.com/twolfson/querystring-multidict/tree/1.0.0#multidict
 
