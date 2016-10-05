@@ -38,7 +38,7 @@ app.use(function (req, res) {
 ## Documentation
 Documentation is the same as [body-parser][] except `req.body` is a `MultiDict`. See `querystring-multidict` for `MultiDict` documentation:
 
-https://github.com/twolfson/querystring-multidict/tree/1.0.0#multidict
+https://github.com/twolfson/querystring-multidict/tree/1.1.0#multidict
 
 ## License
 
