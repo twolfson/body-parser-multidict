@@ -1,4 +1,6 @@
 # body-parser-multidict
+1.1.1 - Upgraded to `debug@4.0.1` to fix GitHub vulnerability warning
+
 1.1.0 - Upgraded to querystring-multidict@1.1.0 to support `fetch` calls
 
 1.0.1 - Removed deprecation warning for `extended`
