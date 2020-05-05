@@ -1,4 +1,6 @@
 # body-parser-multidict
+1.1.3 - Moved to Node.js>=10 to fix Travis CI errors
+
 1.1.2 - Upgraded to `qs@6.9.4` to fix GitHub vulnerability warning
 
 1.1.1 - Upgraded to `debug@4.0.1` to fix GitHub vulnerability warning
